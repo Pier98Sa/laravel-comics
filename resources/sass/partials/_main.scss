@@ -1,0 +1,35 @@
+main{
+    padding: 10px;
+    background-color: #000;
+    color: $tertiaryColor;
+    position: relative;
+ 
+    span{
+        background-color: $secondaryColor;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 6px 12px 6px 12px;
+        position: absolute;
+        top: -17px;
+    }
+ 
+    button{
+        background-color: $secondaryColor;
+        border: none;
+        padding: 6px 36px 6px 36px;
+
+        a{
+            font-size: 12px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $tertiaryColor;
+        } 
+    }
+
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ 
+}
