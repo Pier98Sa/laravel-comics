@@ -19,3 +19,8 @@ Route::get('/', function () {
 
     return view('home', ['comics' => $comics]);
 });
+
+Route::get('/tv', function () {
+
+    return view('tv');
+});

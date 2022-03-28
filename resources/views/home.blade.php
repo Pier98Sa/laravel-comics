@@ -1,4 +1,3 @@
-
 @extends('layouts.base')
 @section('pageTitle', 'DC Comics')
 
@@ -25,8 +24,5 @@
 
     
   </div>
-
-
-
 
 @endsection

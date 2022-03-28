@@ -144,7 +144,10 @@ main button a {
 main .content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+}
+
+main .content button {
+  margin: 0 auto;
 }
 
 .product-card {
@@ -159,6 +162,23 @@ main .content {
 }
 
 .product-card p {
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.film-card {
+  width: 16.6666666667%;
+  padding: 20px;
+}
+
+.film-card .film-photo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.film-card p {
   padding-top: 10px;
   text-transform: uppercase;
   font-size: 12px;
