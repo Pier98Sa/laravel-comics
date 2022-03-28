@@ -48,7 +48,7 @@ header nav li a:hover {
 
 .Jumbotron {
   height: 350px;
-  background-image: asset("img/jumbotron.jpg");
+  background-image: url("/img/jumbotron.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -118,5 +118,68 @@ main .content {
   text-transform: uppercase;
   font-size: 13px;
   color: #fff;
+}
+
+footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+footer .footer-top {
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+footer .footer-top .footer-menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer .footer-bottom {
+  height: 150px;
+  background-color: #252525;
+}
+
+footer .footer-bottom .footer-bottom-items {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-bottom .footer-bottom-items .left button {
+  background: none;
+  border: solid 2px #0282F9;
+  padding: 10px;
+}
+
+footer .footer-bottom .footer-bottom-items .left button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer .footer-bottom .footer-bottom-items .right {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-bottom .footer-bottom-items .right span {
+  text-transform: uppercase;
+  color: #0282F9;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+footer .footer-bottom .footer-bottom-items .right a {
+  padding: 8px;
 }
 

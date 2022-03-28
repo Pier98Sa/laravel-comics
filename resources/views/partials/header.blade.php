@@ -2,7 +2,7 @@
     <nav class="container">
         <!--nav sx-->
         <div class="nav-left">
-          <img src="../assets/img/dc-logo.png" alt="">
+          <img src="{{asset('img/dc-logo.png')}}" alt="">
         </div>
     
         <!--nav dx-->
