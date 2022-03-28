@@ -1,4 +1,16 @@
 header {
+    .header-top{
+        text-align: right;
+        padding: 5px 0px;
+        background-color: $secondaryColor;
+
+        span{
+            padding-left: 40px;
+            color: $tertiaryColor;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
     nav{
         display: flex;
         justify-content: space-between;
@@ -8,28 +20,76 @@ header {
         img{
             padding: 10px;
         }
-    
-        li{
-            display: inline;
-            padding: 10px;
-        
-            a{
-                padding:0 6px 61px 6px ;
-        
-                text-decoration: none;
-                text-transform: uppercase;
-                font-size: 12px;
-                font-weight: bold;
-                color: $primaryColor;
-                
-        
-                &.active,
-                &:hover{
-                color: $secondaryColor;
-                border-bottom: 4px solid $secondaryColor;
-                }
+
+        .nav-right{
+            display: flex;
+
+            li{
+                display: inline;
+                padding: 10px;
             
+                a{
+                    padding:0 6px 67px 6px ;
+            
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: $primaryColor;
+                    
+            
+                    &.active,
+                    &:hover{
+                    color: $secondaryColor;
+                    border-bottom: 4px solid $secondaryColor;
+                    }
+                
+                }
+            } 
+            
+            .input-box{
+                border-bottom: solid 2px $secondaryColor;
+                margin-left: 50px;
+                width: 125px;
+                color: $primaryColor; 
+                position: relative;
+
+                input{
+                    width: 100%;
+                    border: none;
+                    text-align: right;
+                    padding: 5px 10px 5px 0px;  
+                    
+                    
+                }
+                ::-webkit-input-placeholder { /* Edge */
+                    color: $primaryColor;
+                    font-weight: bold;
+                }
+                
+                :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                    color: $primaryColor;
+                    font-weight: bold;
+                }
+                
+                ::placeholder {
+                    color: $primaryColor;
+                    font-weight: bold;
+                }
+
+                i{
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-40%);
+                    right: 3px;
+                }
+                input:focus{
+                    outline: none;
+                }
             }
+            
         }
+    
+        
     }  
 }

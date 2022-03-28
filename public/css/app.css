@@ -15,6 +15,19 @@ body {
   box-sizing: border-box;
 }
 
+header .header-top {
+  text-align: right;
+  padding: 5px 0px;
+  background-color: #0282F9;
+}
+
+header .header-top span {
+  padding-left: 40px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -26,13 +39,17 @@ header nav img {
   padding: 10px;
 }
 
-header nav li {
+header nav .nav-right {
+  display: flex;
+}
+
+header nav .nav-right li {
   display: inline;
   padding: 10px;
 }
 
-header nav li a {
-  padding: 0 6px 61px 6px;
+header nav .nav-right li a {
+  padding: 0 6px 67px 6px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
@@ -40,10 +57,52 @@ header nav li a {
   color: #252525;
 }
 
-header nav li a.active,
-header nav li a:hover {
+header nav .nav-right li a.active,
+header nav .nav-right li a:hover {
   color: #0282F9;
   border-bottom: 4px solid #0282F9;
+}
+
+header nav .nav-right .input-box {
+  border-bottom: solid 2px #0282F9;
+  margin-left: 50px;
+  width: 125px;
+  color: #252525;
+  position: relative;
+}
+
+header nav .nav-right .input-box input {
+  width: 100%;
+  border: none;
+  text-align: right;
+  padding: 5px 10px 5px 0px;
+}
+
+header nav .nav-right .input-box :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #252525;
+  font-weight: bold;
+}
+
+header nav .nav-right .input-box ::-moz-placeholder {
+  color: #252525;
+  font-weight: bold;
+}
+
+header nav .nav-right .input-box ::placeholder {
+  color: #252525;
+  font-weight: bold;
+}
+
+header nav .nav-right .input-box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  right: 3px;
+}
+
+header nav .nav-right .input-box input:focus {
+  outline: none;
 }
 
 .Jumbotron {
