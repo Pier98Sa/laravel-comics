@@ -8,6 +8,12 @@
     <link rel='stylesheet' href="{{asset('css/app.css')}}">
 </head>
 <body>
+    @include('partials.header')
     @include('partials.jumbotron')
+    <main>
+        @yield('content')
+    </main>
+    @include('partials.product')
+    @include('partials.footer')
 </body>
 </html>
