@@ -4,7 +4,7 @@
 @section('content')
 <div class="container">
 
-    <h2>Available on Hbo max</h2>
+    <h2>Available on HBO Max</h2>
 
     <div class="content">
         <div class="film-card">
