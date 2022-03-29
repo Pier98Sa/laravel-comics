@@ -429,8 +429,9 @@ footer .footer-bottom .footer-bottom-items .right a {
 
 .info-comic {
   background-color: #f6f6f6;
-  padding-bottom: 20px;
+  padding-bottom: 90px;
   border-top: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
 }
 
 .info-comic .container {
@@ -502,9 +503,42 @@ footer .footer-bottom .footer-bottom-items .right a {
 .info-comic .container .specs .series span {
   color: #00a9d9;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .info-comic .container .specs .sale {
   border-bottom: 2px solid #ebebeb;
+}
+
+.CTA {
+  background-color: #f6f6f6;
+}
+
+.CTA .container {
+  display: flex;
+}
+
+.CTA .container .cta-card {
+  width: 25%;
+  border-left: 2px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  height: 100px;
+}
+
+.CTA .container .cta-card h4 {
+  color: #d5d5d5;
+}
+
+.CTA .container .cta-card img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.CTA .container .cta-card:last-child {
+  border-right: 2px solid #ebebeb;
 }
 

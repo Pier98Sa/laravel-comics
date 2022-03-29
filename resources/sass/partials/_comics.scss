@@ -108,10 +108,11 @@
 
 .info-comic{
     background-color: $senaryColor;
-    padding-bottom: 20px;
+    padding-bottom: 90px;
     border-top: 2px solid $nonaryColor;
+    border-bottom: 2px solid $nonaryColor;
 
-    & .container{
+    .container{
         display: flex;
 
         .talent{
@@ -170,12 +171,44 @@
             .series span{
                 color: $quinaryColor;
                 font-weight: 600;
+                text-transform: uppercase;
             }
             .sale{
                 border-bottom: 2px solid $nonaryColor;
             }
 
 
+        }
+    }
+}
+
+.CTA{
+    background-color: $senaryColor;
+
+    .container{
+        display: flex;
+
+        .cta-card{
+            width: 25%;
+            border-left: 2px solid $nonaryColor;
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            height: 100px;
+
+            h4{
+                color: $denaryColor;
+            }
+            img{
+                width: 50px;
+                height: 50px;
+                object-fit: contain;
+               
+            }
+
+        }
+        .cta-card:last-child {
+            border-right: 2px solid $nonaryColor;
         }
     }
 }
