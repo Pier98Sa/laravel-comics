@@ -43,29 +43,33 @@
 <div class="info-comic">
 
     <div class="container">
+
         <div class="talent">
             <h2>Talent</h2>
+
             <div class="art">
                 <h3>Art by:</h3>
                 <p>José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
             </div>
+
             <div class="written">
                 <h3>Written by:</h3>
                 <p>Brad Meltzer, Tom King, Scott Snyder, Geoff Johns, Brian Michael Bendis, Paul Dini, Louise Simonson, Richard Donner, Marv Wolfman, Peter J. Tomasi, Dan Jurgens, Jerry Siegel, Paul Levitz</p>
             </div>
         </div>
+
         <div class="specs">
             <h2>Specs</h2>
             <div class="series">
-                <span>Series:</span>
+                <h4>Series:</h4>
                 <span>ACTION COMICS</span>
             </div>
             <div class="price">
-                <span>U.S. Price:</span>
+                <h4>U.S. Price:</h4>
                 <span>$19.99</span>
             </div>
             <div class="sale">
-                <span>On Sale Date:</span>
+                <h4>On Sale Date:</h4>
                 <span>Oct 02 2018</span>
             </div>
         </div>

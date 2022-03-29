@@ -427,3 +427,84 @@ footer .footer-bottom .footer-bottom-items .right a {
   font-size: 12px;
 }
 
+.info-comic {
+  background-color: #f6f6f6;
+  padding-bottom: 20px;
+  border-top: 2px solid #ebebeb;
+}
+
+.info-comic .container {
+  display: flex;
+}
+
+.info-comic .container .talent {
+  width: 50%;
+  padding-right: 40px;
+}
+
+.info-comic .container .talent h2 {
+  padding: 20px 0;
+  color: #003f5e;
+}
+
+.info-comic .container .talent .art,
+.info-comic .container .talent .written {
+  display: flex;
+  padding: 10px 0;
+  border-top: 2px solid #ebebeb;
+}
+
+.info-comic .container .talent .art h3,
+.info-comic .container .talent .written h3 {
+  color: #003f5e;
+  width: 30%;
+}
+
+.info-comic .container .talent .art p,
+.info-comic .container .talent .written p {
+  width: 70%;
+}
+
+.info-comic .container .talent .written {
+  border-bottom: 2px solid #ebebeb;
+}
+
+.info-comic .container .specs {
+  width: 50%;
+}
+
+.info-comic .container .specs h2 {
+  padding: 20px 0;
+  color: #003f5e;
+}
+
+.info-comic .container .specs .series,
+.info-comic .container .specs .price,
+.info-comic .container .specs .sale {
+  display: flex;
+  padding: 10px 0;
+  border-top: 2px solid #ebebeb;
+}
+
+.info-comic .container .specs .series h4,
+.info-comic .container .specs .price h4,
+.info-comic .container .specs .sale h4 {
+  color: #003f5e;
+  width: 30%;
+}
+
+.info-comic .container .specs .series span,
+.info-comic .container .specs .price span,
+.info-comic .container .specs .sale span {
+  width: 70%;
+}
+
+.info-comic .container .specs .series span {
+  color: #00a9d9;
+  font-weight: 600;
+}
+
+.info-comic .container .specs .sale {
+  border-bottom: 2px solid #ebebeb;
+}
+

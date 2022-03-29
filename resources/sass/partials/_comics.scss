@@ -42,6 +42,7 @@
 
     
 }
+
 .main-page{   
     display: flex; 
     padding: 50px 0px;
@@ -102,5 +103,79 @@
         text-align: right;
         text-transform: uppercase;
         font-size: 12px;
+    }
+}
+
+.info-comic{
+    background-color: $senaryColor;
+    padding-bottom: 20px;
+    border-top: 2px solid $nonaryColor;
+
+    & .container{
+        display: flex;
+
+        .talent{
+            width: 50%;
+            padding-right: 40px;
+
+            h2{
+                padding: 20px 0;
+                color: $septenaryColor;
+            }
+
+            .art,
+            .written{
+                display: flex;
+                padding: 10px 0;
+                border-top: 2px solid $nonaryColor;
+
+                h3{
+                    color: $septenaryColor;
+                    width: 30%;
+                }
+                p{
+                    width: 70%;
+                }
+            }
+
+            .written{
+                border-bottom: 2px solid $nonaryColor;
+            }
+        }
+
+        .specs{
+            width: 50%;
+
+            h2{
+                padding: 20px 0;
+                color: $septenaryColor;
+            }
+
+            .series,
+            .price,
+            .sale{
+                display: flex;
+                padding: 10px 0;
+                border-top: 2px solid $nonaryColor;
+
+                h4{
+                    color: $septenaryColor;
+                    width: 30%;
+                }
+                span{
+                    width: 70%;
+                }
+            }
+
+            .series span{
+                color: $quinaryColor;
+                font-weight: 600;
+            }
+            .sale{
+                border-bottom: 2px solid $nonaryColor;
+            }
+
+
+        }
     }
 }
