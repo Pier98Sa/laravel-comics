@@ -1,0 +1,42 @@
+.comic{
+    height: 100px;
+    background-color: $secondaryColor;
+
+    .comic-cover{
+        position: absolute;
+        width: 12%;
+        border: solid 2px $tertiaryColor;
+        margin-top: -250px;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .cover-text{
+            position: absolute;
+            color: $tertiaryColor;
+            background-color: $quinaryColor;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 4px 10px 4px 10px;
+
+            &.up{
+                top: 0;
+                left: 50;
+            }
+
+            &.down{
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                text-align: center;
+
+                a{
+                    text-decoration: none;
+                    color: $tertiaryColor;
+                }
+            }
+        }
+        
+    }
+}

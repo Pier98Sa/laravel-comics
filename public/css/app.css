@@ -113,13 +113,13 @@ header nav .nav-right .input-box input:focus {
 }
 
 main {
-  padding: 10px;
   background-color: #000;
   color: #fff;
   position: relative;
+  padding-bottom: 10px;
 }
 
-main span {
+main span.label-series {
   background-color: #0282F9;
   text-transform: uppercase;
   font-weight: bold;
@@ -299,5 +299,49 @@ footer .footer-bottom .footer-bottom-items .right a {
   color: #797979;
   font-size: 12px;
   padding: 10px 0 10px 0;
+}
+
+.comic {
+  height: 100px;
+  background-color: #0282F9;
+}
+
+.comic .comic-cover {
+  position: absolute;
+  width: 12%;
+  border: solid 2px #fff;
+  margin-top: -250px;
+}
+
+.comic .comic-cover img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.comic .comic-cover .cover-text {
+  position: absolute;
+  color: #fff;
+  background-color: #00a9d9;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 4px 10px 4px 10px;
+}
+
+.comic .comic-cover .cover-text.up {
+  top: 0;
+  left: 50;
+}
+
+.comic .comic-cover .cover-text.down {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.comic .comic-cover .cover-text.down a {
+  text-decoration: none;
+  color: #fff;
 }
 

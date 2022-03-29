@@ -1,10 +1,10 @@
 main{
-    padding: 10px;
     background-color: #000;
     color: $tertiaryColor;
     position: relative;
+    padding-bottom: 10px;
  
-    span{
+    span.label-series{
         background-color: $secondaryColor;
         text-transform: uppercase;
         font-weight: bold;

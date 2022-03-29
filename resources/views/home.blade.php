@@ -3,19 +3,18 @@
 
 @section('content')
 <div class="container">
-
-    <span>Current series</span>
+    <span class="label-series">Current series</span>
 
     <div class="content">
       <!--Popolamento dinamico della sezione main-->
-      @foreach ($comics as $comic)
+      @foreach ($comics as $key => $comic)
         <div class="product-card" >
-            <div class="photo-card">
-            <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-            </div>
-        
-            <p>{{$comic['title']}}</p>
-      </div>
+          <div class="photo-card">
+            <a href="/comics/{{$key}}"><img src="{{$comic['thumb']}}" alt="{{$comic['title']}}"></a>
+          </div>
+
+          <p>{{$comic['title']}}</p>
+        </div>
       @endforeach
       
 
@@ -25,4 +24,8 @@
     
   </div>
 
+@endsection
+
+@section('product')
+  @include('partials.product')
 @endsection
