@@ -36,4 +36,4 @@ Route::get('/comics/{id}', function($id) {
     } else {
         abort(403, 'Fumetto non disponibile');
     }
-});
+})->name('fumetto');
