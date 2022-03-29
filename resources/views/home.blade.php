@@ -2,7 +2,8 @@
 @section('pageTitle', 'DC Comics')
 
 @section('content')
-<div class="container">
+<div class="comics-main">
+  <div class="container">
     <span class="label-series">Current series</span>
 
     <div class="content">
@@ -23,6 +24,8 @@
 
     
   </div>
+</div>
+
 
 @endsection
 

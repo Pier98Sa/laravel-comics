@@ -112,14 +112,14 @@ header nav .nav-right .input-box input:focus {
   background-size: cover;
 }
 
-main {
+.comics-main {
   background-color: #000;
   color: #fff;
   position: relative;
   padding-bottom: 10px;
 }
 
-main span.label-series {
+.comics-main span.label-series {
   background-color: #0282F9;
   text-transform: uppercase;
   font-weight: bold;
@@ -128,25 +128,41 @@ main span.label-series {
   top: -17px;
 }
 
-main button {
+.comics-main button {
   background-color: #0282F9;
   border: none;
   padding: 6px 36px 6px 36px;
 }
 
-main button a {
+.comics-main button a {
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
 }
 
-main .content {
+.comics-main .content {
   display: flex;
   flex-wrap: wrap;
 }
 
-main .content button {
+.comics-main .content button {
+  margin: 0 auto;
+}
+
+.tv-main {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.tv-main .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tv-main .content button {
   margin: 0 auto;
 }
 
@@ -343,5 +359,14 @@ footer .footer-bottom .footer-bottom-items .right a {
 .comic .comic-cover .cover-text.down a {
   text-decoration: none;
   color: #fff;
+}
+
+.comic .main-page {
+  background-color: #fff;
+  height: 1000px;
+}
+
+.comic .main-page .ad img {
+  display: block;
 }
 

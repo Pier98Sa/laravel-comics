@@ -1,0 +1,16 @@
+.tv-main{
+    background-color: #000;
+    color: $tertiaryColor;
+    position: relative;
+    padding-bottom: 10px;
+
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        
+        button{
+            margin: 0 auto;
+        }
+    }
+ 
+}

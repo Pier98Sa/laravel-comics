@@ -39,4 +39,16 @@
         }
         
     }
+
+    .main-page{
+        background-color: $tertiaryColor;
+        height: 1000px;
+
+        .ad{
+
+            img{
+                display: block;
+            }
+        }
+    }
 }
