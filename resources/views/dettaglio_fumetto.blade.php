@@ -53,9 +53,9 @@
                     @foreach($fumetto['artists'] as $key => $artist)
                     
                         @if ($key == array_key_last($fumetto['artists']) )
-                            {{$artist}}
+                        <span class="element-list" >{{$artist}}</span>
                         @else
-                            {{$artist . ','}}  
+                        <span class="element-list" >{{$artist}}</span>,   
                         @endif
                         
                     @endforeach
@@ -71,9 +71,9 @@
                     @foreach($fumetto['writers'] as $key => $writer)
                     
                         @if ($key == array_key_last($fumetto['writers']) )
-                            {{$writer }}
+                            <span class="element-list" >{{$writer }}</span>
                         @else
-                            {{$writer . ','}}  
+                            <span class="element-list" >{{$writer}}</span>, 
                         @endif
                         
                     @endforeach

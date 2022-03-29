@@ -443,6 +443,10 @@ footer .footer-bottom .footer-bottom-items .right a {
   padding-right: 40px;
 }
 
+.info-comic .container .talent .element-list {
+  color: #00a9d9;
+}
+
 .info-comic .container .talent h2 {
   padding: 20px 0;
   color: #003f5e;
