@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;
 
-400;600&display=swap);.container {
+400;600&display=swap);@charset "UTF-8";
+.container {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -75,7 +76,7 @@ header nav .nav-right .input-box input {
   width: 100%;
   border: none;
   text-align: right;
-  padding: 5px 10px 5px 0px;
+  padding: 5px 23px 5px 0px;
 }
 
 header nav .nav-right .input-box :-ms-input-placeholder {
@@ -324,7 +325,7 @@ footer .footer-bottom .footer-bottom-items .right a {
 
 .comic .comic-cover {
   position: absolute;
-  width: 12%;
+  width: 200px;
   border: solid 2px #fff;
   margin-top: -250px;
 }
@@ -361,12 +362,68 @@ footer .footer-bottom .footer-bottom-items .right a {
   color: #fff;
 }
 
-.comic .main-page {
-  background-color: #fff;
-  height: 1000px;
+.main-page {
+  display: flex;
+  padding: 50px 0px;
 }
 
-.comic .main-page .ad img {
-  display: block;
+.main-page .details-comic {
+  padding-right: 40px;
+}
+
+.main-page .details-comic h1 {
+  text-transform: uppercase;
+  color: #003f5e;
+}
+
+.main-page .details-comic .price-comic {
+  display: flex;
+  justify-content: space-between;
+  background-color: #55ba59;
+  color: #fff;
+  border-bottom: 1px solid #252525;
+  margin: 20px 0px;
+}
+
+.main-page .details-comic .price-comic .available {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 15px;
+  border-right: 1px solid #252525;
+  font-weight: 600;
+}
+
+.main-page .details-comic .price-comic .available .transparent {
+  opacity: 0.8;
+}
+
+.main-page .details-comic .price-comic .available .transparent.upper {
+  text-transform: uppercase;
+}
+
+.main-page .details-comic .price-comic .check-available {
+  padding: 15px;
+  font-weight: 600;
+}
+
+.main-page .details-comic .price-comic .check-available span::after {
+  content: "\25BC";
+  color: #fff;
+  font-size: 8px;
+  vertical-align: middle;
+}
+
+.main-page .details-comic .description-comic {
+  color: #797979;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.main-page .ad {
+  color: #797979;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 

@@ -16,10 +16,16 @@
 <div class="main-page container">
     <div class="details-comic">
         <h1>Action Comics #1000: The Deluxe Edition</h1>
-        <div class="prize-comic">
-            <span>U.S. Price: $19.99</span>
-            <span>Available</span>
-            <span>Check Availability</span>
+        <div class="price-comic">
+            <div class="available">
+                <span> <span class="transparent">U.S. Price: </span>$19.99</span>
+                <span class="transparent upper">Available</span>
+            </div>
+            
+            <div class="check-available">
+                <span>Check Availability </span>
+            </div>
+            
         </div>
 
         <div class="description-comic">
@@ -29,12 +35,42 @@
     </div>
 
     <div class="ad">
-        <img src="{{asset('img/adv.jpg')}}" alt="adv">
+        <h3>Advertisement</h3>
+        <a href="#"><img src="{{asset('img/adv-copia.jpg')}}" alt="adv"></a>
     </div>
 </div>
 
-<div>
-    
+<div class="info-comic">
+
+    <div class="container">
+        <div class="talent">
+            <h2>Talent</h2>
+            <div class="art">
+                <h3>Art by:</h3>
+                <p>José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
+            </div>
+            <div class="written">
+                <h3>Written by:</h3>
+                <p>Brad Meltzer, Tom King, Scott Snyder, Geoff Johns, Brian Michael Bendis, Paul Dini, Louise Simonson, Richard Donner, Marv Wolfman, Peter J. Tomasi, Dan Jurgens, Jerry Siegel, Paul Levitz</p>
+            </div>
+        </div>
+        <div class="specs">
+            <h2>Specs</h2>
+            <div class="series">
+                <span>Series:</span>
+                <span>ACTION COMICS</span>
+            </div>
+            <div class="price">
+                <span>U.S. Price:</span>
+                <span>$19.99</span>
+            </div>
+            <div class="sale">
+                <span>On Sale Date:</span>
+                <span>Oct 02 2018</span>
+            </div>
+        </div>
+    </div>
+
 </div>
 
     

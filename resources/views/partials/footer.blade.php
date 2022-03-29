@@ -131,6 +131,7 @@
           <a href="#"><img src="{{asset('img/footer-youtube.png')}}" alt="youtube"></a>
           <a href="#"><img src="{{asset('img/footer-pinterest.png')}}" alt="pinterest"></a>
           <a href="#"><img src="{{asset('img/footer-periscope.png')}}" alt="periscope"></a>
+          <img src="{{asset('img/adv.jpg')}}" alt="adv">
         </div>
       </div>
       

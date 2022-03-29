@@ -4,7 +4,7 @@
 
     .comic-cover{
         position: absolute;
-        width: 12%;
+        width: 200px;
         border: solid 2px $tertiaryColor;
         margin-top: -250px;
 
@@ -40,15 +40,67 @@
         
     }
 
-    .main-page{
-        background-color: $tertiaryColor;
-        height: 1000px;
+    
+}
+.main-page{   
+    display: flex; 
+    padding: 50px 0px;
 
-        .ad{
+    .details-comic{
+        padding-right: 40px;
 
-            img{
-                display: block;
+        h1{
+            text-transform: uppercase;
+            color: $septenaryColor;
+        }
+
+        .price-comic{
+            display: flex;
+            justify-content: space-between;
+            background-color: $octonaryColor;
+            color: $tertiaryColor;
+            border-bottom: 1px solid $primaryColor;
+            margin: 20px 0px;
+
+            .available{
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                padding: 15px;
+                border-right: 1px solid $primaryColor;
+                font-weight: 600;
+
+                .transparent{
+                    opacity: 0.8;
+
+                    &.upper{
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .check-available{
+                padding: 15px;
+                font-weight: 600;
+                span::after{
+                    content: '\25BC';
+                    color: $tertiaryColor;
+                    font-size: 8px;
+                    vertical-align: middle;
+                }
             }
         }
+
+        .description-comic{
+            color: $quaternaryColor;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    }
+
+    .ad{
+        color: $quaternaryColor;
+        text-align: right;
+        text-transform: uppercase;
+        font-size: 12px;
     }
 }
