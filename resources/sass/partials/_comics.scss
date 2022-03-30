@@ -3,6 +3,7 @@
     height: 100px;
     background-color: $secondaryColor;
 
+    //comic cover
     .comic-cover{
         position: absolute;
         width: 200px;
@@ -43,11 +44,13 @@
 
     
 }
+
 //main page
 .main-page{   
     display: flex; 
     padding: 50px 0px;
 
+    //details comic
     .details-comic{
         padding-right: 40px;
 
@@ -56,6 +59,7 @@
             color: $septenaryColor;
         }
 
+        //price comic
         .price-comic{
             display: flex;
             justify-content: space-between;
@@ -92,6 +96,7 @@
             }
         }
 
+        //description comic
         .description-comic{
             color: $quaternaryColor;
             font-size: 18px;
@@ -99,6 +104,7 @@
         }
     }
 
+    //ad
     .ad{
         color: $quaternaryColor;
         text-align: right;
@@ -116,7 +122,8 @@
 
     .container{
         display: flex;
-
+        
+        //talent
         .talent{
             width: 50%;
             padding-right: 40px;
@@ -150,6 +157,7 @@
             }
         }
 
+        //specs
         .specs{
             width: 50%;
 
@@ -195,6 +203,7 @@
     .container{
         display: flex;
 
+        //cta card
         .cta-card{
             width: 25%;
             border-left: 2px solid $nonaryColor;
