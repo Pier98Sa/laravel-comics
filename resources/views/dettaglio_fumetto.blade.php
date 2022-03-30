@@ -2,6 +2,7 @@
 @section('pageTitle', 'DC - '. $fumetto['title'])
 
 @section('content')
+<!--banda con cover del fumetto-->
 <div class="comic">
     <div class="container">
         <div class="comic-cover">
@@ -13,6 +14,7 @@
     </div>
 </div>
 
+<!--dettagli del fumetto-->
 <div class="main-page container">
     <div class="details-comic">
         <h1>{{$fumetto['title']}}</h1>
@@ -34,12 +36,14 @@
 
     </div>
 
+    <!--ADVERTISEMENT-->
     <div class="ad">
         <h3>Advertisement</h3>
         <a href="#"><img src="{{asset('img/adv-copia.jpg')}}" alt="adv"></a>
     </div>
 </div>
 
+<!--Info relativi al fumetto-->
 <div class="info-comic">
 
     <div class="container">
@@ -103,6 +107,7 @@
     
 </div>
 
+<!--CTA-->
 <div class="CTA ">
     <div class="container">
         <div class="cta-card">

@@ -1,4 +1,5 @@
 header {
+    //header top
     .header-top{
         text-align: right;
         padding: 5px 0px;
@@ -11,6 +12,8 @@ header {
             text-transform: uppercase;
         }
     }
+
+    //header bottom
     nav{
         display: flex;
         justify-content: space-between;
@@ -62,6 +65,7 @@ header {
                     
                     
                 }
+                //cambio del colore del placeholder della input box fonte: W3School
                 ::-webkit-input-placeholder { /* Edge */
                     color: $primaryColor;
                     font-weight: bold;
@@ -83,6 +87,7 @@ header {
                     transform: translateY(-40%);
                     right: 3px;
                 }
+                //eliminazione del focus sull'input box
                 input:focus{
                     outline: none;
                 }

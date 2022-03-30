@@ -1,3 +1,4 @@
+//comic
 .comic{
     height: 100px;
     background-color: $secondaryColor;
@@ -42,7 +43,7 @@
 
     
 }
-
+//main page
 .main-page{   
     display: flex; 
     padding: 50px 0px;
@@ -106,6 +107,7 @@
     }
 }
 
+//info comic
 .info-comic{
     background-color: $senaryColor;
     padding-bottom: 90px;
@@ -186,6 +188,7 @@
     }
 }
 
+//CTA
 .CTA{
     background-color: $senaryColor;
 

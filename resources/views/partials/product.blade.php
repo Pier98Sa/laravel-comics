@@ -1,7 +1,7 @@
 <div class="product">
 
     <div class="container product-list" >
-      <!--Popolamento dinamico della sezione product-->
+      <!-- sezione product-->
       <div class="card">
         <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
         <a href="#">Digital Comics</a>

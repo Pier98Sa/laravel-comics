@@ -1,4 +1,5 @@
 <header>
+  <!--Header top-->
   <div class="header-top">
     <div class="container">
       <span>DC Power&trade; Visa&reg; </span>
@@ -6,6 +7,7 @@
     </div>
     
   </div>
+  <!--Header bottom-->
   <div class="header-bottom">
     <nav class="container">
       <!--nav sx-->

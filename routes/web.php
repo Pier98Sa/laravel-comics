@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*route comics utilizzata come home page */
 Route::get('/', function () {
 
     $comics = config('comics');
@@ -20,11 +21,13 @@ Route::get('/', function () {
     return view('home', ['comics' => $comics]);
 })->name('comics');
 
+/*route tv */
 Route::get('/tv', function () {
 
     return view('tv');
 })->name('tv');
 
+/*route che porta al singolo fumetto */
 Route::get('/comics/{id}', function($id) {
 
     $comics = config('comics');
